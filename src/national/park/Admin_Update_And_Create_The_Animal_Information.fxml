@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="national.park.Admin_Update_And_Create_The_Animal_InformationController">
+   <children>
+      <Label layoutX="125.0" layoutY="11.0" text="Update And Create The Animal Information">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Line endX="199.0" endY="13.333332061767578" layoutX="301.0" layoutY="25.0" startX="-188.20001220703125" startY="13.333332061767578" />
+      <Button mnemonicParsing="false" onAction="#backBtnOnClick" text="&lt;-Back" />
+      <TextArea fx:id="updateTextArea" layoutX="69.0" layoutY="48.0" prefHeight="200.0" prefWidth="490.0" promptText="Text Here......." />
+      <Button layoutX="69.0" layoutY="263.0" mnemonicParsing="false" onAction="#sendBtnOnClick" text="Save" />
+   </children>
+</AnchorPane>

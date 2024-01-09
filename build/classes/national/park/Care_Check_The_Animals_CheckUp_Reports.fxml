@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="national.park.Care_Check_The_Animals_CheckUp_ReportsController">
+   <children>
+      <Label layoutX="195.0" text="Animals Check-Up Reports">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Line endX="131.33331298828125" endY="13.333337783813477" layoutX="300.0" layoutY="14.0" startX="-117.33331298828125" startY="13.333337783813477" />
+      <Button mnemonicParsing="false" onAction="#backBtnOnClick" text="&lt;-Back" />
+      <TableView layoutX="44.0" layoutY="67.0" prefHeight="200.0" prefWidth="511.0">
+        <columns>
+          <TableColumn prefWidth="86.0" text="Animal Name" />
+          <TableColumn prefWidth="77.99996948242188" text="Report ID" />
+            <TableColumn prefWidth="79.33331298828125" text="Report Date" />
+            <TableColumn prefWidth="160.666748046875" text="Problem" />
+            <TableColumn prefWidth="107.333251953125" text="Treatment" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="national.park.Admin_Update_Park_InformationController">
+   <children>
+      <Label layoutX="199.0" layoutY="11.0" text="Update Park Information">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Line endX="112.5999755859375" endY="13.333332061767578" layoutX="300.0" layoutY="25.0" startX="-113.79998779296875" startY="13.333332061767578" />
+      <Button mnemonicParsing="false" onAction="#backBtnOnClick" text="&lt;-Back" />
+      <Button layoutX="46.0" layoutY="334.0" mnemonicParsing="false" onAction="#saveBtnOnClick" prefHeight="25.0" prefWidth="60.0" text="Save" />
+      <TextArea layoutX="27.0" layoutY="49.0" prefHeight="266.0" prefWidth="550.0" text="Lawachara National Park, easily accessed with good eco-tourism facilities, is the most visited &#10;forest in Bangladesh and it is not far from Dhaka city by train.  It covers roughly 1,250 ha of&#10; semi-perennial tropical forests. By the Bangladesh government in 1996, under the Wildlife Act&#10; of 1974, the land was declared a national park.This Park is very widespread for worldwide&#10; threatened four species: Northern Pig-tailed Macaque, Phayre’s Leaf Monkey, Capped Langur,&#10; and the most important population in Bangladesh of Western Hoolock Gibbon, the only ape&#10; found in Bangladesh. Lawachara is perhaps the only forest in the world to see this globally &#10;endangered species the western hoolock gibbon, but only about 16 families are left here.&#10;The beauty of tall forest trees, cool clean air, and misty green seem a sphere away from the rest&#10; of Bangladesh. This is a popular destination for nature lovers and the scientists and surveys &#10;continually find species new for the forest and several species are only known in Bangladesh&#10; from Lawachara.This forest is magnificent for its biodiversity and hosts 15 species of &#10;amphibians, 52 species of reptiles, 258 species of birds and about 20 species of mammals and&#10; an Important population of globally endangered Western Hoolock Gibbon. There are also &#10;diverse ethnic communities called Kasiaz, tipra, monipuri.     ">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
